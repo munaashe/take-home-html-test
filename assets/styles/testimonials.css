@@ -1,0 +1,101 @@
+.slideshow-container {
+    position: relative;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: flex;
+    padding: 80px;
+    text-align: center;
+    justify-content: stretch;
+    gap: 30px;
+    align-items: center;
+    margin-top: -170px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #eaeaea;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: transparent;
+    color: #5bc8af;
+  }
+  
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #eaeaea;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #5bc8af;
+  }
+  
+  .testimonials-image{
+    flex: 1;
+    width: 300px;
+    height: 300px;
+  }
+
+  .testimonials-text {
+    flex: 2;
+    background-color: #194d44;
+    height: 300px;
+  }
+
+  .testimonials-heading {
+    color: #fff;
+    font-size: 24px;
+    line-height: 34px;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top: -30px;
+  }
+
+  .testimonials-body{
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .right-quote{
+    color: #2a7c6b;
+    text-align: end;
+    margin-right: 50px;
+    font-size: 72px;
+    margin-top: 50px;
+  }

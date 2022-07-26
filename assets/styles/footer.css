@@ -1,0 +1,35 @@
+.footer-container {
+    height: 100px;
+    background-color: #eaeaea;
+    display: flex;
+}
+
+.footer-links {
+
+    margin-right: 70px;
+    justify-content: flex-end;
+}
+
+.copyright-text {
+    margin-left: 60px;
+    flex: 1;
+    color: #757575;
+    font-size: 14px;
+    line-height: 100px;
+}
+
+.link-items {
+    line-height: 24px;
+    margin: 0 10px;
+    color: #757575;
+    justify-items: flex-end;
+}
+
+
+.link-item {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 14px;
+    line-height: 100px;
+    font-family: montserrat;
+}

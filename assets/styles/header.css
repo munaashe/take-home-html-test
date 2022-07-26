@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: sans-serif;
+  content: 1440px;
+}
+
+.container {
+  position: relative;
+  background-image: url(/assets/images/bg.png) 100% 0 no-repeat;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+.logo {
+  margin-top: 20.5px;
+}
+
+.nav {
+  float: right;
+  margin-right: 20px;
+}
+
+.nav-items {
+  line-height: 70px;
+  margin: 0 10px;
+  color: aliceblue;
+  justify-items: flex-end;
+}
+
+.item {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 14;
+  font-family: montserrat;
+}
+
+.call-contact {
+  color: #fff;
+  margin-top: 20.5px;
+}
+
+.call-now-highlighted {
+  color: #5bc8af;
+}
+
+.header-area {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading-and-text {
+  flex: 3;
+  margin-left: 20px;
+}
+
+.contact-form {
+  flex: 2;
+  background-color: #297c6b;
+  padding: 20px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+}
+
+.heading-outlined {
+  font-size: 64px;
+  line-height: 72px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.heading-solid {
+  font-size: 64px;
+  line-height: 72px;
+  color: #fff;
+}
+
+.header-description {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #297c6b;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact-heading {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+::placeholder{
+  color: #fff;
+  opacity: 1;
+}
+
+.personal-details{
+  display: flex;
+  gap: 10px;
+}
+
+.company-details{
+  display: flex;
+  gap: 10px;
+}
+
+.button-submit{
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
+}
+.button{
+  font-size: 14px;
+  color: #fff;
+  background-color: #5bc8af;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.button:hover{
+  background-color: #fff;
+  color:  #5bc8af;
+}
+
+.rectangle2{
+  margin-top: -111px;
+  width: 100%;
+}
